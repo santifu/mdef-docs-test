@@ -1,0 +1,2840 @@
+<!-- See example https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/src/overrides/home.html -->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="MDEF Documentation">
+      
+      
+        <meta name="author" content="IAAC, ELISAVA, Fab Lab Barcelona">
+      
+      
+        <link rel="canonical" href="https://santifu.github.io/mdef-docs-test/">
+      
+      
+      
+      <link rel="icon" href="assets/images/mdef-favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.1.0">
+    
+    
+      
+        <title>MASTER IN DESIGN FOR EMERGENT FUTURES - MASTER IN DESIGN FOR EMERGENT FUTURES</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,300i,400,400i,700,700i%7CSpace+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Space Grotesk";--md-code-font:"Space Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+	<!-- Pending to define Plausible config -->
+    <script defer data-domain="" src="https://plausible.io/js/plausible.js"></script>
+    <!-- <script src="/javascripts/extra.js"></script> -->
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="MASTER IN DESIGN FOR EMERGENT FUTURES" class="md-header__button md-logo" aria-label="MASTER IN DESIGN FOR EMERGENT FUTURES" data-md-component="logo">
+      
+  <img src="assets/mdef.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MASTER IN DESIGN FOR EMERGENT FUTURES
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MASTER IN DESIGN FOR EMERGENT FUTURES
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9.38 8.38 2.12.96 2.12-.96-.96 2.12.96 2.12-2.12-.96-2.12.96.96-2.12-.96-2.12M16.5 2.5l1.09 2.91L20.5 6.5l-2.91 1.09-1.09 2.91-1.09-2.91L12.5 6.5l2.91-1.09L16.5 2.5M6 19h1v-1a1 1 0 0 1 1-1h.26a7.473 7.473 0 0 1-3.76-6.5A7.5 7.5 0 0 1 12 3c1.05 0 2.05.22 2.96.61l-.37.98-1.42.53C12.79 5.04 12.4 5 12 5a5.5 5.5 0 0 0-5.5 5.5A5.5 5.5 0 0 0 12 16c2.91 0 5.3-2.27 5.5-5.13l.91-2.46.71-.27c.25.74.38 1.54.38 2.36 0 2.78-1.5 5.2-3.76 6.5H16a1 1 0 0 1 1 1v1h1a2 2 0 0 1 2 2v1H4v-1a2 2 0 0 1 2-2Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="primary" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 16a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4h-1a1 1 0 0 1-1-1 1 1 0 0 1 1-1h1a2 2 0 0 0 2-2 2 2 0 0 0-2-2h-2V9a5 5 0 0 0-5-5C9.5 4 7.45 5.82 7.06 8.19 6.73 8.07 6.37 8 6 8a3 3 0 0 0-3 3 3 3 0 0 0 3 3h1a1 1 0 0 1 1 1 1 1 0 0 1-1 1H6m6-5h3l-2 4h2l-3.75 7 .75-5H9.5l2.5-6Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/santifu/mdef-docs-test" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mdef-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+  
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="2023-24/" class="md-tabs__link">
+      Welcome!
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="faculty/" class="md-tabs__link">
+      Faculty
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="2023-24/students/" class="md-tabs__link">
+      Stuasasdents
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="2023-24/year-1/" class="md-tabs__link">
+        Year 1
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="2023-24/year-2/" class="md-tabs__link">
+        Year 2
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="glossary/" class="md-tabs__link">
+        Glossary
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+<canvas></canvas>
+<section id="header">
+
+  <!-- <img src="/assets/images/landing/mdef-parallax-bg.jpg" id="background-pixels"> -->
+  <img src="/assets/images/landing/gifs/fridge.gif" id="fridge" class="gif">
+  <img src="/assets/images/landing/gifs/plants.gif" id="plants" class="gif">
+  <img src="/assets/images/landing/gifs/plant.gif" id="plant" class="gif">
+  <img src="/assets/images/landing/gifs/live-stream.gif" id="live-stream" class="gif">
+  <img src="/assets/images/landing/gifs/model-breaking.gif" id="model-breaking" class="gif">
+  <img src="/assets/images/landing/gifs/robot.gif" id="robot" class="gif">
+  <h1 id="mdef-h1">Master in Design for Emergent Futures</h1>
+</section>
+<div id="home">
+  <section id="about">
+    <div class="two-column-text">
+      <div class="two-column-text-block">
+        <h3>Welcome human or not!\</h3>
+        <h2>The Design for Emergent Futures Approach</h2>
+      </div>
+      <div class="two-column-text-block">
+        <p class="description"><strong>The Master in Design for Emergent Futures is both a theoretical and practical Master.</strong> It evolves the practice of design beyond objects, aesthetics, form finding and pure speculation through a unique hands-on-learning approach. <strong>Our method uses practical design processes to investigate complex systemic problems and proposes city-scale interventions to approach large-scale challenges.</strong></p>
+      </div>
+    </div>
+  </section>
+  <section id="graph">
+    <div class="graph-title">
+      <h2>Multiscalar design strategy</h2>
+    </div>
+    <img class="graph-image only-light desktop-only-image" src="/assets/images/landing/graphic-light.png" alt="">
+    <img class="graph-image only-dark desktop-only-image" src="/assets/images/landing/graphic-dark.png" alt="">
+    <img class="graph-image only-light mobile-only-image" src="/assets/images/landing/graphic-light-mobile.png" alt="">
+    <img class="graph-image only-dark mobile-only-image" src="/assets/images/landing/graphic-dark-mobile.png" alt="">
+  </section>
+  <section id="highlighted-projects">
+    <div class="section-title">
+      <h2>Highlighted Projects</h2>
+    </div>
+    <div class="three-grid-projects">
+      <div class="project-block">
+        <img src="/assets/images/landing/projects/aqui-1.jpg" alt="Aquí: Participatory Placemaking">
+        <div class="short-project-details">
+          <p><strong>AQUÍ</strong> collaborates with local residents and associations to create an equitable sustainable and healthy city, through workshops and community events.</p>
+        </div>
+        <p class="button">Read more</p>
+      </div>
+      <div class="project-block">
+        <img src="/assets/images/landing/projects/farmacademy-1.png" alt="Aquí: Participatory Placemaking">
+        <div class="short-project-details">
+          <p><strong>POWARSTEAM</strong> is a Planet-Centered Edu-Tech research studio based in Barcelona created in 2019, that designs workshops, methodologies and learning objects.</p>
+        </div>
+        <p class="button">Read more</p>
+      </div>
+      <div class="project-block">
+        <img src="/assets/images/landing/projects/autonomous-tree-1.jpg" alt="Aquí: Participatory Placemaking">
+        <div class="short-project-details">
+          <p><strong>AUTONOMOUS TREE</strong> seeks to demonstrate a potential non-human authority that acts and represents on the behalf of non-human living beings.</p>
+        </div>
+        <p class="button">Read more</p>
+      </div>
+    </div>
+    <div class="project-description-container">
+      <div class="project-description">
+        <div class="project-details-container">
+          <div class="project-details-image"><img src="/assets/images/landing/projects/aqui-2.jpg" alt=""></div>
+          <div class="project-details">
+            <div class="project-name">
+              <h3>AQUÍ</h3>
+              <h4 class="project-author">Clement Rames</h4>
+            </div>
+            <div class="tags">
+              <p>participation</p>
+              <p>community engagement</p>
+              <p>placemaking</p>
+              <p>urban acupuncture</p>
+              <p>transition design</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-narrative">
+          <h4>Participatory Placemaking</h4>
+          <p><strong>AQUÍ</strong> collaborates with local residents and associations to create an equitable sustainable and healthy city. For public space to be truly inclusive, it needs to be designed by the people. Through a series of workshops and community events, <strong>AQUÍ</strong> empowers neighbors to design their streets, grounding change in their lived experience.</p>
+          <p><strong>AQUÍ</strong> is the fruit of a collaboration between designer Lea Karrasch and action researcher Clément Rames. It has grown to an international collective of practitioners united by the same purpose.</p>
+          <div class="links">
+            <p class="video-button" data-link="296jh-uCe5A">See the video</p>
+            <p><a href="https://aqui.design/" target="_blank">Project website</a></p>
+            <p><a href="https://www.instagram.com/aqui.bcn/" target="_blank">Instagram</a></p>
+          </div>
+        </div>
+        <div class="close-project">x</div>
+      </div>
+    </div>
+    <div class="project-description-container">
+      <div class="project-description">
+        <div class="project-details-container">
+          <div class="project-details-image"><img src="/assets/images/landing/projects/farmacademy-2.jpg" alt=""></div>
+          <div class="project-details">
+            <div class="project-name">
+              <h3>POWARSTEAM</h3>
+              <h4 class="project-author">Pablo Zuloaga</h4>
+            </div>
+            <div class="tags">
+              <p>distributed learning</p>
+              <p>design for society</p>
+              <p>digital fabrication</p>
+              <p>agriculture</p>
+              <p>sustainability</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-narrative">
+          <h4>Distributed, low-cost agro-climate resilience</h4>
+          <p><strong>POWARSTEAM</strong> (originally <strong>FARMACADEMY</strong>) is a Planet-Centered Edu-Tech research studio based in Barcelona created in 2019, that designs workshops, methodologies and learning objects to empower people for a planet-centered future.</p>
+          <p>They are seeking the way to empower rural communities with design skills and distributed manufacturing for them to be able to create technologies that make them more resilient to climate change.</p>
+          <div class="links">
+            <p class="video-button" data-link="tK5vMoKCsnE">See the video</p>
+            <p><a href="http://www.powarsteam.com/" target="_blank">Project website</a></p>
+            <p><a href="https://www.instagram.com/powarsteam/" target="_blank">Instagram</a></p>
+          </div>
+        </div>
+        <div class="close-project">x</div>
+      </div>
+    </div>
+    <div class="project-description-container">
+      <div class="project-description">
+        <div class="project-details-container">
+          <div class="project-details-image"><img src="/assets/images/landing/projects/autonomous-tree-2.jpg" alt=""></div>
+          <div class="project-details">
+            <div class="project-name">
+              <h3>AUTONOMOUS TREE</h3>
+              <h4 class="project-author">Krzysztof Wronski</h4>
+            </div>
+            <div class="tags">
+              <p>authorities</p>
+              <p>governance</p>
+              <p>policy</p>
+              <p>participatory methods</p>
+              <p>post-humanism</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-narrative">
+          <h4>Imagining non-human authorities</h4>
+          <p><strong>AUTONOMOUS TREE</strong> is an art installation in which a tree — equipped with similar equipment and sensing technology as an autonomous vehicle — is transformed to hypothetically act and represent on the behalf of non-human living beings within established human systems of governance and discourse.</p>
+          <p>The installation seeks to demonstrate a potential non-human authority that acts and represents on the behalf of non-human living beings within established human systems of governance and discourse.</p>
+          <div class="links">
+            <p class="video-button" data-link="XBos6-ysI-I">See the video</p>
+            <p><a href="https://in-silo.com/autonomous_trees " target="_blank">Project website</a></p>
+          </div>
+        </div>
+        <div class="close-project">x</div>
+      </div>
+    </div>
+  </section>
+  <section id="tracks">
+    <div class="tracks-container">
+      <div class="two-column-text">
+        <h3>The <strong>four tracks</strong> of the MDEF program provide students with the strategic vision and tools to work at multiple scales in the real world.</h3>
+        <p class="description">The <strong>theoretical and practical content</strong> in the program recognises and explores the possibilities of disruptive technologies: digital fabrication, blockchain, synthetic biology, Artificial Intelligence among others.</p>
+      </div>
+      <div class="highlight-section">
+        <div class="highlight-block-solid">
+            <div class="highlight-text-solid">
+                <div class="highlight-title">
+                  <div class="icon-highlight-container-solid">
+                    <svg class="icon-highlight-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M9.4 86.6c-12.5-12.5-12.5-32.7 0-45.2s32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L178.7 256 9.4 86.6zM256 416h288c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+                    </div>
+                    <h4>Instrumentation</h4>
+                </div>
+                <p>Students learn a modular set of maker skills and tools and how these can be used in the design process to translate their ideas into prototypes and prototypes into products. Skills include coding, digital fabrication, hardware design, synthetic biology, and computational thinking.</p>
+            </div>
+        </div>
+        <div class="highlight-block-solid">
+            <div class="highlight-text-solid">
+              <div class="highlight-title">
+                <div class="icon-highlight-container-solid">
+                  <svg class="icon-highlight-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7l126.6 126.7c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+              </div>
+                  <h4>Exploration</h4>
+              </div>
+                <p>Students are exposed to a set of technologies and sociocultural phenomena that have the capacity to disrupt our present understanding of society, industry and the economy. Technologies include Artificial Intelligence, Blockchain and Distributed Ledger Technologies.</p>
+            </div>
+        </div>
+        <div class="highlight-block-solid">
+            <div class="highlight-text-solid">
+              <div class="highlight-title">
+                <div class="icon-highlight-container-solid">
+                  <svg class="icon-highlight-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M297.2 248.9c14.4-20.6 22.8-45.7 22.8-72.9 0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9 3.7 5.3 8.1 11.3 12.8 17.7 12.9 17.7 28.3 38.9 39.8 59.8 10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5-9.9-18-22.2-34.9-34.5-51.8-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176 16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3-5 7.2-10.2 14.3-15.4 21.4-12.3 16.8-24.6 33.7-34.5 51.8-5.9 10.8-9.6 22.5-11.8 34.5h-48.5c2.6-18.7 7.9-38.6 18.3-57.5 11.5-20.9 26.9-42.1 39.8-59.8 4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48 0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80 8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80v-16h160v16c0 44.2-35.8 80-80 80z"/></svg>
+                </div>
+                  <h4>Reflection</h4>
+              </div>
+                <p>Students are supported through individual and group reflection sessions to develop their own identity and skill set, knowledge and attitude as designers. A series of presentations and visits from key professionals helps make students aware about how their thinking, making, interests and values differ from others.</p>
+            </div>
+        </div>
+        <div class="highlight-block-solid">
+            <div class="highlight-text-solid">
+              <div class="highlight-title">
+                <div class="icon-highlight-container-solid">
+                  <svg class="icon-highlight-solid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M342.6 9.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l9.4 9.4L28.1 342.6C10.1 360.6 0 385 0 410.5v5.5c0 53 43 96 96 96h5.5c25.5 0 49.9-10.1 67.9-28.1L448 205.3l9.4 9.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-32-32-96-96-32-32zM205.3 256 352 109.3l50.7 50.7-96 96H205.3z"/></svg>
+                </div>
+                  <h4>Application</h4>
+              </div>
+                <p>Students create design responses to explore their curiosities through innovation. They are encouraged to be creative and follow a culture of making where prototyping acts as a generator of knowledge and experimentation is crucial for problem solving.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="carousel">
+    <div class="carousel-image-wrapper">
+      <img class="carousel-block slide-in" src="/assets/images/landing/fab-lab.jpg" alt="">
+      <div class="carousel-text-wrapper">
+        <div class="carousel-text">
+          <h3>Fab Lab Barcelona</h3>
+          <h4>A world leader of programs for the future of education</h4>
+            <p>Fab Lab Barcelona was established in 2007 by IAAC as the first Fab Lab in the European Union. Today, it is a benchmark in a network of over 2000 Fab Labs, blending emergent technologies with community-driven innovation. It is home to the Distributed Design platform, the exchange and networking hub for the European maker movement.</p>
+            <p><a href="https://fablabbcn.org/" target="_blank">https://fablabbcn.org/</a></p>
+        </div>
+        <div class="carousel-number">
+          <p class="imagenumber">1/3</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-image-wrapper">
+      <img class="carousel-block slide-in" src="/assets/images/landing/iaac.jpg" alt="">
+      <div class="carousel-text-wrapper">
+        <div class="carousel-text">
+          <h3>The Institute for Advanced Architecture of Catalonia</h3>
+          <h4>An international centre for research, education, production and outreach</h4>
+          <p>The Institute for Advanced Architecture of Catalonia (IAAC) is an international centre for research, education, production and outreach, with the mission of envisioning the future habitat of our society and building it in the present.</p>
+          <p><a href="https://iaac.net/" target="_blank">https://iaac.net/</a></p>
+        </div>
+        <div class="carousel-number">
+          <p class="imagenumber">2/3</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-image-wrapper">
+      <img class="carousel-block slide-in" src="/assets/images/landing/elisava.jpeg" alt="">
+      <div class="carousel-text-wrapper">
+        <div class="carousel-text">
+          <h3>Elisava</h3>
+          <h4>Training professionals who will challenge the future</h4>
+          <p>ELISAVA Barcelona School of Design and Engineering is the pioneer academy in this field in Spain, with more than half a century of experience. Founded in 1961, it promotes education, knowledge, research, development and innovation on design.</p>
+          <p><a href="https://www.elisava.net/en/" target="_blank">https://www.elisava.net/</a></p>
+        </div>
+        <div class="carousel-number">
+          <p class="imagenumber">3/3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="network">
+  </section>
+  <div class="popup-overlay">
+    <div class="video-popup">
+      <iframe id="iframe" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+
+
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="MASTER IN DESIGN FOR EMERGENT FUTURES" class="md-nav__button md-logo" aria-label="MASTER IN DESIGN FOR EMERGENT FUTURES" data-md-component="logo">
+      
+  <img src="assets/mdef.svg" alt="logo">
+
+    </a>
+    MASTER IN DESIGN FOR EMERGENT FUTURES
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/santifu/mdef-docs-test" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mdef-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/" class="md-nav__link">
+        Welcome!
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faculty/" class="md-nav__link">
+        Faculty
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/students/" class="md-nav__link">
+        Stuasasdents
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="2023-24/year-1/">Year 1</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Year 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/calendar/" class="md-nav__link">
+        Calendar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="2023-24/year-1/t1/">Term 1</a>
+          
+            <label for="__nav_4_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Term 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/design-studio-01/" class="md-nav__link">
+        Design Studio 01
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/documenting-design/" class="md-nav__link">
+        Documenting Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/landing/" class="md-nav__link">
+        Landing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/atlas-of-weak-signals/" class="md-nav__link">
+        Atlas of Weak Signals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/the-machine-paradox/" class="md-nav__link">
+        The Machine Paradox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/living-with-your-own-ideas/" class="md-nav__link">
+        Living With Your Own Ideas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/biology-zero/" class="md-nav__link">
+        Biology Zero
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/agriculture-zero/" class="md-nav__link">
+        Agriculture Zero
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/design-with-others/" class="md-nav__link">
+        Design With Others
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t1/extended-intelligences/" class="md-nav__link">
+        Extended Intelligences
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="2023-24/year-1/t2/">Term 2</a>
+          
+            <label for="__nav_4_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Term 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/design-studio-02/" class="md-nav__link">
+        Design Studio 02
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/future-talks/" class="md-nav__link">
+        Future Talks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/designing-in-a-state-of-climate-emergency/" class="md-nav__link">
+        Designing in a State of Climate Emergency
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/communicating-ideas/" class="md-nav__link">
+        Communicating Ideas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/designing-with-collective-intelligence/" class="md-nav__link">
+        Designing with Collective Intelligence
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/designing-with-extended-intelligences/" class="md-nav__link">
+        Designing with Extended Intelligences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/digital-prototyping-for-design/" class="md-nav__link">
+        Digital Prototyping for Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t2/measuring-the-world/" class="md-nav__link">
+        Measuring The World
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="2023-24/year-1/t3/">Term 3</a>
+          
+            <label for="__nav_4_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Term 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/design-studio-03/" class="md-nav__link">
+        Design Studio 03
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/future-talks/" class="md-nav__link">
+        Future Talks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/design-ethics/" class="md-nav__link">
+        Design Ethics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/critical-transfeminist-design/" class="md-nav__link">
+        Critical Transfeminist Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/communicating-ideas/" class="md-nav__link">
+        Communicating Ideas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/the-atlas-of-weak-signals/" class="md-nav__link">
+        The Atlas of Weak Signals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/mdefest/" class="md-nav__link">
+        MDEFest 2023
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-1/t3/digital-prototyping-for-design/" class="md-nav__link">
+        Digital Prototyping for Design
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="2023-24/year-2/">Year 2</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Year 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/calendar/" class="md-nav__link">
+        Calendar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/thesis-project/" class="md-nav__link">
+        Thesis Project
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/research-methods/" class="md-nav__link">
+        Research & Methods
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/circular-matter/" class="md-nav__link">
+        Circular Matter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/business-innovation/" class="md-nav__link">
+        Business Innovation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/theories-of-the-urban/" class="md-nav__link">
+        Theories of the Urban
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/interaction-and-prototyping/" class="md-nav__link">
+        Interaction and Prototyping
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/ecological-interactions/" class="md-nav__link">
+        Ecological Interactions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2023-24/year-2/modules/urban-shift/" class="md-nav__link">
+        Urban Shift
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="glossary/">Glossary</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Glossary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine title -->
+
+
+
+<!-- Table of contents -->
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+<style>
+    body {
+    font-size: 1em;
+  }
+  nav {
+    display: none;
+  }
+  /* Remove spacing, as we cannot hide it completely */
+  .md-main__inner {
+    margin: 0;
+  }
+
+  /* Hide main content for now */
+  .md-content {
+    display: none;
+  }
+  .md-header {
+    position: static;
+    display: none;
+    transition: ease-in-out all 0.3s;
+  }
+  .md-tabs {
+    display: none;
+    transition: ease-in-out all 0.3s;
+  }
+  nav.md-grid {
+    display: none;
+    transition: ease-in-out all 0.3s;
+  }
+  nav .md-grid {
+    display: none;
+    transition: ease-in-out all 0.3s;
+  }
+  canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  #header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  #mdef-h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 50px;
+    color: var(--md-primary-fg-color--opposite);
+    z-index: 1;
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0px 0px 50px var(--md-accent-fg-color), 0 0 1em var(--md-accent-fg-color), 0 0 0.2em var(--md-accent-fg-color);
+    transition: text-shadow 0.5s ease-in-out;
+    }
+
+  .gif {
+    max-width: 250px;
+    width: 50%;
+    position: absolute;
+  }
+  #fridge {
+    z-index: 1;
+    top: 50px;
+    left: 7%;
+    transition: ease-in-out all 0.3s;
+  }
+
+  #live-stream {
+    z-index: 1;
+    top: 70px;
+    right: 7%;
+    transition: ease-in-out all 0.3s;
+  }
+
+  #plant {
+    z-index: 1;
+    top: 250px;
+    right: calc(50vw - 75px);
+    transition: ease-in-out all 0.3s;
+    scale: 1.5;
+  }
+  #plants {
+    z-index: 1;
+    top: calc(100vh - 300px);
+    left: calc(25vw - 75px);
+  }
+  #model-breaking {
+    z-index: 1;
+    top: 40vh;
+    right: 25%;
+  }
+  #robot {
+    z-index: 1;
+    bottom: 75px;
+    right: 15%;
+    scale: 1.5;
+  }
+
+  #about {
+    width: 100%;
+    /* height: calc(100vh - 48px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 0px; */
+  }
+
+  #tracks {
+    width: 100%;
+    /* height: calc(100vh - 48px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 10px 0px; */
+  }
+
+  #highlighted-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--md-default-bg-color);
+    grid-gap: 15px;
+    padding: 50px 0px 0px 0px;
+    z-index: 1;
+    border: var(--md-accent-fg-color) 2px solid;
+    /* border-bottom: var(--md-accent-fg-color) 2px solid; */
+    position: relative;
+  }
+  #carousel {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    background-color: var(--md-default-bg-color);
+    position: relative;
+    border: var(--md-accent-fg-color) 2px solid;
+    overflow: hidden;
+  }
+  #graph {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  #graph img {
+    width: 82%;
+  }
+  #graph h2 {
+    margin-top: 0px;
+    width: 50%;
+    text-align: right;
+    color: var(--md-accent-fg-color);
+  }
+  .graph-title {
+    width: 82%;
+    display: flex;
+    justify-content: right;
+  }
+  .mobile-only-image {
+    display: block;
+  }
+  .desktop-only-image {
+    display: none;
+  }
+
+  #highlighted-projects h2 {
+    color: var(--md-accent-fg-color);
+    align-self: flex-start;
+    margin-top: 0px;
+  }
+  #about .two-column-text {
+    background-color: var(--md-default-bg-color);
+    border: var(--md-accent-fg-color) 2px solid;
+    padding: 50px 30px 30px 30px;
+  }
+  .tracks-container {
+    background-color: var(--md-accent-fg-color);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    padding: 50px 30px 30px 30px;
+    z-index: 1;
+    margin: 0px;
+    grid-gap: 40px;
+  }
+  .two-column-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    z-index: 1;
+    grid-gap: 40px;
+  }
+  .two-column-text p.description {
+    padding: 0px;
+  }
+  .two-column-text-block {
+    width: 100%;
+    color: var(--md-accent-fg-color);
+  }
+  #tracks .two-column-text {
+    color: var(--md-default-bg-color);
+  }
+  .two-column-text h2 {
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+  .two-column-text h3 {
+    margin: 0px;
+  }
+  .highlight-section {
+    width: 100%;
+  }
+
+  .highlight-block-solid {
+    background-color: var(--md-default-bg-color);
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    border: var(--md-accent-fg-color) 2px solid;
+    z-index: 1;
+    width: 100%;
+  }
+  .highlight-text-solid {
+    color: var(--md-primary-fg-color--opposite);
+    display: grid;
+    grid-gap: 15px;
+  }
+  .highlight-text-solid h3 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+  }
+  .highlight-text-solid h4 {
+      text-align: left;
+      /* font-style: italic; */
+      font-weight: bold;
+      /* font-size: 1.1em; */
+      color: var(--md-primary-fg-color);
+      /* text-transform: uppercase; */
+      margin-bottom: 0px;
+      margin-top: 10px;
+  }
+  .highlight-text-solid p, .carousel-text p, .project-description p{
+      text-align: left;
+      font-size: 0.75em;
+      line-height: 1.2;
+      margin-bottom: 0px;
+  }
+  .project-block p {
+      text-align: center;
+      font-size: 0.75em;
+      line-height: 1.2;
+      margin-bottom: 0px;
+  }
+  .icon-highlight-solid {
+    fill: var(--md-accent-fg-color);
+    width: 10px;
+    /* padding: 25px; */
+    text-align: center;
+    scale: inherit;
+  }
+  .highlight-title {
+    display: flex;
+    align-items: baseline;
+    grid-gap: 15px;
+  }
+
+  .icon-highlight-container-solid {
+      border: var(--md-accent-fg-color) solid 2px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-self: center;
+  }
+  .section-title {
+    width: 80%;
+  }
+  .three-grid-projects {
+    width: 100%;
+    display: none;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 50px;
+    background-color: var(--md-default-bg-color);
+    z-index: 1;
+  }
+  .project-block {
+    border: var(--md-accent-fg-color) 2px solid;
+    border-radius: 10px;
+    background-color: var(--md-default-bg-color);
+    width: 80%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-block h3, .project-block h4 {
+    text-align: center;
+    margin: 5px
+  }
+  .project-block .button {
+    border: var(--md-accent-fg-color) 2px solid;
+    width: fit-content;
+    align-self: center;
+    background-color: var(--md-accent-fg-color);
+    color: var(--white);
+    margin-bottom: 20px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 400ms all ease-in-out;
+  }
+  .project-block .button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--md-accent-fg-color);
+    cursor: pointer;
+  }
+  .project-block img {
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+    aspect-ratio: 7/5;
+    border-radius: 7px 7px 0px 0px;
+    border-bottom: var(--md-accent-fg-color) 2px solid;
+  }
+  .project-description {
+    position: relative;
+    width: 100%;
+    background-color: var(--md-default-bg-color);
+    z-index: 3;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    transition: all 400ms ease-in-out;
+  }
+  .project-description-container {
+    display: block;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .project-details-container {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right, var(--md-accent-fg-color) , rgb(255, 255, 255));
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-top: var(--md-accent-fg-color) 2px solid;
+    aspect-ratio: 1/1;
+  }
+  .project-details{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 0px;
+  }
+  .project-description h4{
+    margin-top: 10px;
+  }
+  .project-description h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .project-details-image {
+    object-position: 50% 50%;
+    object-fit: cover;
+    display: flex;
+    height: 100%;
+  }
+  .project-details-image img {
+    opacity: 0.7;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+  .project-description h3 {
+    text-transform: capitalize;
+  }
+
+  .project-narrative {
+    width: 100%;
+    border-top: var(--md-accent-fg-color) 2px solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .close-project {
+    display: none;
+  }
+  .close-project:hover {
+    cursor: pointer;
+  }
+  .tags, .links {
+    display: block;
+    padding-top: 10px;
+    width: fit-content;
+  }
+  .tags p {
+    padding: 5px 8px;
+    margin: 5px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .links p {
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 10px 10px 0px 0px;
+  }
+  .links p {
+    background-color: var(--md-accent-fg-color);
+    color: var(--white);
+    transition: all 400ms ease-in-out;
+    border: var(--md-accent-fg-color) 2px solid;
+  }
+  .tags p {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--md-accent-fg-color);
+    border: var(--md-accent-fg-color) 2px solid;
+  }
+  .links p:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--md-accent-fg-color);
+  }
+  .video-button:hover {
+    cursor: pointer;
+  }
+  .popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 400ms ease-in-out;
+  }
+  .popup-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 5;
+  }
+  .video-popup {
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 400ms ease-in-out;
+  }
+  .popup-overlay.active .video-popup {
+    opacity: 1;
+  }
+  .video-popup iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
+    @media only screen and (min-width: 500px) {
+      .project-details-container {
+        aspect-ratio: auto;
+      }
+      #mdef-h1:hover {
+      text-shadow: 0px 0px 50px var(--md-accent-fg-color), 0 0 1em var(--md-accent-fg-color), 0 0 0.2em var(--md-accent-fg-color);
+      }
+      #mdef-h1 {
+      font-size: 7.1vw;
+      text-shadow: 0 0 0.2em var(--md-default-bg-color);
+      padding: 50px;
+      }
+    }
+    @media only screen and (min-width: 960px) {
+      #about .two-column-text {
+      padding: 50px;
+      }
+      /* .two-column-text {
+        margin: 30px 0px;
+      } */
+      .project-description {
+      position: absolute;
+      width: 90%;
+      background-color: var(--md-default-bg-color);
+      z-index: 3;
+      margin: 0%;
+      border: var(--md-accent-fg-color) 2px solid;
+      border-radius: 10px;
+      display: none;
+      box-shadow: 0px 0px 100px var(--md-accent-fg-color), 0 0 1em var(--md-accent-fg-color), 0 0 0.2em var(--md-accent-fg-color);
+      transition: all 400ms ease-in-out;
+      display: flex;
+      align-self: center;
+      }
+      .project-description-container {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: none;
+      z-index: 2;
+      transition: all 400ms ease-in-out;
+      justify-content: center;
+      }
+      .close-project {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      color: var(--md-accent-fg-color);
+      font-weight: 600;
+      padding: 10px;
+    }
+    .project-description-container::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--md-default-bg-color);
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 400ms ease-in-out;
+    }
+    .video-popup {
+      width: 80%;
+    }
+    }
+
+
+  .carousel-image-wrapper img {
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    display: none;
+
+  }
+  #carousel .carousel-block {
+    position: relative;
+    display: none;
+  }
+  #carousel .carousel-number {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+  }
+  .carousel-text-wrapper {
+    background-color: var(--md-default-bg-color);
+  }
+  #carousel .carousel-text {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    bottom: 0px;
+    left: 0;
+    border-top: var(--md-accent-fg-color) 2px solid;
+    background: var(--md-default-bg-color);
+    padding: 30px 30px 50px 30px;
+  }
+  .carousel-text a {
+    color: var(--md-accent-fg-color);
+    font-weight: 600;
+  }
+  .carousel-text h3 {
+    margin: 0px;
+    color: var(--md-accent-fg-color);
+  }
+  .carousel-text h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--md-accent-fg-color);
+  }
+  #carousel p.imagenumber {
+    color: var(--md-accent-fg-color);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .slide-in {
+  animation-name: slidein;
+  animation-duration: 4s;
+  }
+  @keyframes slidein {
+    0%   {right: -20%;
+      /* opacity: 0.4 */
+      ;}
+    20%  {right: 0%;
+      opacity: 1;}
+    50%  {right: 0%;}
+    80%  {right: 0%;
+      opacity: 1;
+    }
+    100% {right: 0%;
+      /* opacity: 0.6; */
+    }
+  }
+
+  .project-block .short-project-details {
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+  }
+  #home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* .md-main {
+    justify-content: center;
+    z-index: 1;
+  } */
+
+  .md-content {
+    display: initial;
+  }
+  .md-footer {
+    z-index: 1;
+  }
+
+  .main-home {
+    padding-bottom: 50px;
+  }
+  .md-typeset #home h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+  }
+  p.description {
+    padding: 20px;
+    font-size: 18px;
+    margin: 0px;
+  }
+  /* iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  } */
+  .main-home section {
+    padding-top: 15px;
+  }
+
+  @media only screen and (min-width: 960px) {
+
+    .main-home .md-sidebar.md-sidebar--primary {
+      width: 0px;
+    }
+    .main-home .md-sidebar.md-sidebar--secondary {
+      width: 0px;
+    }
+    .main-home .md-content {
+      width: 100%;
+    }
+    .md-main {
+    display: grid;
+    }
+    #highlighted-projects {
+      padding: 50px 0px;
+    }
+    .highlight-block-solid {
+        background-color: var(--md-default-bg-color);
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-self: center;
+        align-content: flex-start;
+        align-self: stretch;
+        grid-gap: 50px;
+    }
+    /* Highlight Section Media Queries */
+    .highlight-section {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    #about .two-column-text {
+      width: 75%;
+      border-radius: 10px;
+    }
+    .tracks-container {
+      width: 75%;
+      border-radius: 10px;
+      margin: 50px 0px;
+      padding: 50px;
+    }
+    .three-grid-projects {
+      width: 85%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 50px;
+    }
+    .project-block {
+      width: 100%;
+    }
+    .section-title {
+      width: 85%;
+    }
+    #carousel .carousel-text {
+    position: absolute;
+    width: 35%;
+    left: 7.5%;
+    bottom: 60px;
+    border: var(--md-accent-fg-color) 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+    }
+
+    .two-column-text:hover, .tracks-container:hover, .project-block:hover, .carousel-text:hover {
+      box-shadow: 0px 0px 100px var(--md-accent-fg-color), 0 0 1em var(--md-accent-fg-color), 0 0 0.2em var(--md-accent-fg-color);
+      transition: box-shadow 0.5s ease-in-out;
+    }
+    #carousel .carousel-number {
+    position: absolute;
+    bottom: 20px;
+    }
+    #carousel p.imagenumber {
+    text-shadow: 0 0 0.2em var(--white);
+    }
+    .carousel-text-wrapper {
+      background-color: none;
+    }
+    .project-description {
+      flex-direction: row;
+    }
+    .project-details-container {
+    width: 50%;
+    border-right: var(--md-accent-fg-color) 1px solid;
+    border-radius: 7px 0px 0px 7px;
+    border-top: none;
+    }
+    .project-details {
+      padding: 50px;
+    }
+    .project-narrative {
+    width: 50%;
+    border-left: var(--md-accent-fg-color) 1px solid;
+    border-top: none;
+    padding: 50px;
+    }
+    .project-details-image img {
+      height: 100%;
+      border-radius: 7px 0px 0px 7px;
+    }
+    .project-description h3{
+    font-size: 50px;
+    line-height: 50px;
+    }
+    .tags, .links {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    }
+    .tags p {
+    padding: 7px 10px;
+    margin: 10px 10px 0px 0px;
+    }
+    #graph {
+      padding-top: 50px;
+    }
+    .mobile-only-image {
+      display: none;
+    }
+    .desktop-only-image {
+      display: block;
+    }
+    .gif {
+      scale: 1.1;
+      transition: all ease-in-out 0.5s;
+    }
+  }
+  @media only screen and (min-width: 1220px){
+    /* #about {
+      height: calc(100vh - 112px);
+    } */
+    #about .two-column-text {
+      display: flex;
+      flex-direction: row;
+    }
+    .two-column-text-block {
+    width: 50%;
+    }
+    .gif {
+      scale: 1.25;
+      transition: all ease-in-out 0.5s;
+    }
+    #fridge {
+      left: 10%;
+      top: 70px;
+    }
+    #live-stream {
+      right: 10%;
+      top: 120px;
+    }
+    #plant {
+      top: 250px;
+    }
+  }
+</style>
+
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+    <div class="md-copyright__highlight">
+      <p>Except where otherwise noted, content on this site is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a>.</p>
+    </div>
+    <p>
+      <a rel="license" target="_blank" href="https://fablabbcn.org/education/master/master-in-design-for-emergent-futures">The Master in Design for Emergent Futures (MDEF)</a> is a collaboration between <a rel="license" target="_blank" href="http://elisava.net">ELISAVA</a>, <a rel="license" target="_blank" href="http://iaac.net">IAAC</a> and <a rel="license" target="_blank" href="http://fablabbcn.org">Fab Lab Barcelona</a>.
+    </p>
+    <p>You can contribute to this page by following our <a href="/contribute/">guidelines.</a></p>
+    <p>
+    Made with
+    <a
+      href="https://squidfunk.github.io/mkdocs-material/"
+      target="_blank" rel="noopener"
+    >
+      Material for MkDocs
+    </a>
+    </p>
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/fablabbcn" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/fablabbcn/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/fablabbcn/mdef-docs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+
+<!-- <script>
+
+  window.addEventListener('scroll', function(){
+    if (document.querySelectorAll("#parallax").length == 1){
+      let bg = document.getElementById("bg");
+      let letters = document.getElementById("letters");
+      let leftBracket = document.getElementById("left");
+      let rightBracket = document.getElementById("right");
+      let image = document.getElementById("image");
+      var value = window.scrollY;
+      leftBracket.style.top = value * 0.5 + "px";
+      leftBracket.style.left = -value * 0.5 + "px";
+      rightBracket.style.left = value * 0.5 + "px";
+      rightBracket.style.top = -value * 0.5 + "px";
+      letters.style.opacity = 100 - (value * 0.5) + "%";
+      image.style.opacity = value * 0.3 + "%";
+      leftBracket.style.opacity = 100 - (value * 0.15) + "%";
+      rightBracket.style.opacity = 100 - (value * 0.15) + "%";
+    }
+  })
+</script>
+-->
+<script>
+
+
+  let canvas = document.querySelector("canvas");
+  let context = canvas.getContext("2d");
+
+  let screenWidth, screenHeight;
+  let slideIndex = 0;
+  showSlides();
+
+  screenWidth =  window.innerWidth*5;
+  screenHeight = document.body.scrollHeight*5;
+
+  canvas.width = screenWidth;
+  canvas.height = screenHeight;
+
+  console.log(screenWidth);
+  console.log(screenHeight);
+
+  drawCanvas();
+
+  let projectCounter = 0;
+  const projects = document.querySelectorAll(".button");
+  const projectsBlock = document.querySelectorAll(".project-block");
+  const projectsIntro = document.querySelectorAll(".three-grid-projects");
+  const projectsDescription = document.querySelectorAll(".project-description");
+  const projectsDescriptionContainer = document.querySelectorAll(".project-description-container");
+  const close = document.querySelectorAll(".close-project");
+
+  for (let a = 0; a < projects.length; a++){
+    projects[a].onclick = function() {
+    projectsDescription[a].style.display = "flex";
+    projectsDescriptionContainer[a].style.display = "flex";
+      for (let b = 0; b < projects.length; b++){
+      close[b].onclick = function() {
+      projectsDescription[b].style.display = "none";
+      projectsDescriptionContainer[b].style.display = "none";
+      }
+      projectsDescriptionContainer[b].onclick = function() {
+      projectsDescription[b].style.display = "none";
+      projectsDescriptionContainer[b].style.display = "none";
+      }
+      }
+    }
+    projectsBlock[a].onclick = function() {
+    projectsDescription[a].style.display = "flex";
+    projectsDescriptionContainer[a].style.display = "flex";
+      for (let b = 0; b < projects.length; b++){
+      close[b].onclick = function() {
+      projectsDescription[b].style.display = "none";
+      projectsDescriptionContainer[b].style.display = "none";
+      }
+      projectsDescriptionContainer[b].onclick = function() {
+      projectsDescription[b].style.display = "none";
+      projectsDescriptionContainer[b].style.display = "none";
+      }
+      }
+    }
+  }
+
+  window.onclick = headerVisible;
+
+  function headerVisible () {
+
+    if (innerWidth < 960){
+      document.querySelector("#fridge").style.top="60px";
+      document.querySelector("#live-stream").style.top="80px";
+      document.querySelector(".md-header").style.display="block";
+      document.querySelectorAll("nav .md-grid")[0].style.display="block";
+      document.querySelectorAll("nav.md-grid")[0].style.display="flex";
+    } else if (innerWidth < 1220){
+      document.querySelector("#fridge").style.top="80px";
+      document.querySelector("#live-stream").style.top="100px";
+      document.querySelector(".md-header").style.display="block";
+      document.querySelectorAll("nav .md-grid")[0].style.display="block";
+      document.querySelectorAll("nav.md-grid")[0].style.display="flex";
+      document.querySelector("#header").style.height="95vh";
+    } else {
+      document.querySelector("#fridge").style.top="80px";
+      document.querySelector("#live-stream").style.top="100px";
+      document.querySelector(".md-header").style.display="block";
+      document.querySelector(".md-tabs").style.display="block";
+      document.querySelectorAll("nav .md-grid")[0].style.display="block";
+      document.querySelectorAll("nav.md-grid")[0].style.display="flex";
+      document.querySelector("#header").style.height="95vh";
+    }
+  }
+
+  window.addEventListener('resize', () => {
+    screenWidth =  window.innerWidth*5;
+    screenHeight = document.body.scrollHeight*5;
+
+    canvas.width = screenWidth;
+    canvas.height = screenHeight;
+
+    console.log(screenWidth);
+    console.log(screenHeight);
+
+    document.querySelector(".md-header").style.display="none";
+    document.querySelector(".md-tabs").style.display="none";
+    document.querySelectorAll("nav .md-grid")[0].style.display="none";
+    document.querySelectorAll("nav.md-grid")[0].style.display="none";
+    document.querySelector("#fridge").style.top="";
+    document.querySelector("#live-stream").style.top="";
+    document.querySelector("#header").style.height="";
+
+    drawCanvas();
+
+    if (innerWidth < 960){
+      for (let a = 0; a < projectsDescription.length; a++){
+        projectsDescription[a].style.display = "flex";
+        projectsDescriptionContainer[a].style.display = "flex";
+      }
+    } else if (innerWidth > 960){
+      for (let a = 0; a < projectsDescription.length; a++){
+        projectsDescription[a].style.display = "none";
+        projectsDescriptionContainer[a].style.display = "none";
+      }
+      }
+  })
+
+
+  document.addEventListener("change", changeMode);
+
+  function changeMode() {
+  document.querySelector("body").getAttribute('data-md-color-scheme');
+  drawCanvas ();
+  }
+
+  function clear(){
+    context.clearRect(0, 0, screenWidth, screenHeight);
+  }
+
+  function drawCanvas () {
+
+    clear ();
+
+    console.log(getComputedStyle(document.body).getPropertyValue('--md-primary-fg-color'));
+    let primaryColor = getComputedStyle(document.body).getPropertyValue('--md-primary-fg-color');
+    context.strokeStyle = primaryColor;
+
+    context.fillStyle = '#001aff23';
+    context.fillRect(0, 0, screenWidth, screenHeight);
+
+    context.lineWidth = 10;
+    context.save();
+    context.beginPath();
+    context.moveTo(screenWidth/25, 0);
+    context.lineTo(screenWidth/25, screenHeight);
+    context.stroke();
+    context.restore();
+
+    context.save();
+    context.beginPath();
+    context.moveTo((screenWidth-(screenWidth/25)), 0);
+    context.lineTo((screenWidth-(screenWidth/25)), screenHeight);
+    context.stroke();
+    context.restore();
+
+    context.save();
+    context.beginPath();
+    context.moveTo(screenWidth/2, 0);
+    context.lineTo(screenWidth/2, screenHeight);
+    context.stroke();
+    context.restore();
+  }
+
+  function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("carousel-block");
+  let descriptionSlide = document.getElementsByClassName("carousel-text");
+  let numberSlide = document.getElementsByClassName("carousel-number");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    descriptionSlide[i].style.display = "none";
+    numberSlide[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  descriptionSlide[slideIndex-1].style.display = "block";
+  numberSlide[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+
+const popupOverlay = document.querySelector(".popup-overlay");
+const popup = document.querySelector(".video-popup iframe");
+
+const videoButton = document.querySelectorAll(".video-button");
+
+videoButton.forEach((link) => {
+  link.addEventListener("click", () => {
+    popupOverlay.classList.add("active");
+    let videoLink = `https://www.youtube.com/embed/${link.dataset.link}?controls=0&rel=0`;
+    popup.src = videoLink;
+    document.querySelector(".ytp-expand-pause-overlay .ytp-pause-overlay").style.display="none";
+  });
+});
+
+popupOverlay.addEventListener("click", () => {
+  popupOverlay.classList.remove("active");
+  let videoLink = `https://www.youtube.com/embed/`;
+  popup.src = videoLink;
+});
+
+</script>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.indexes", "navigation.tabs", "navigation.footer", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.tooltips", "content.tabs.link", "content.action.edit", "content.code.copy"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.ce72ebac.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+        <script src="https://buttons.github.io/buttons.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"></script>
+      
+        <script src="assets/javascripts/extra.js"></script>
+      
+        <script src="assets/javascripts/calendar.js"></script>
+      
+        <script src="assets/javascripts/google-drive.js"></script>
+      
+        <script src="js/open_in_new_tab.js"></script>
+      
+    
+  </body>
+</html>
